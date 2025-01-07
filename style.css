@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    text-decoration: none; border: none; outline: none;
+    font-family: 'Poppins';
+}
+
+:root {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --main-color: black;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0, 0, 0, .2);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%; height: 100vh; overflow-x: hidden;
+    background-color: white;
+}
+
+/* Home */ 
+section {
+    padding: 5rem 5% 8rem;
+}
+
+.home {
+    display: flex; justify-content: center; gap: 8rem;
+    align-items: center; background-size: cover;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.65), 
+    rgb(0, 0, 0, 0.65)), url(banner.png);
+    background-position: center;
+    height: 100vh;
+}
+
+.home-img {
+    transition: 0.5s ease;
+}
+
+.home-img:hover {
+    transform: scale(1.1);
+}
+
+.home-img img {
+    position: relative; width: 20vw; cursor: pointer;
+}
+
+.home .home-content {
+    width: 60%;
+}
+
+.home .home-content h1 {
+    font-size: 4rem; font-weight: 700;
+    color: white;
+}
+
+.home-content p {
+    font-size: 1.6rem; text-align: justify; color: white;
+    margin-bottom: 3%; 
+}
+
+.typing-text {
+    font-size: 34px; font-weight: 600; min-width: 280px;
+    text-align: left; 
+}
+
+.typing-text span {
+    position: relative; 
+}
+
+.typing-text span::after {
+    content: ""; background-color: black;
+    position: absolute; width: calc(0% + 1px);
+    height: 60%; border-left: 3px solid black;
+    right: -8px; animation: cursor 0.6s infinite;
+    margin-top: 15px;
+}
+
+@keyframes cursor {
+    to {
+        border-left: 3px solid white;
+    }
+}
+
+.social-icons a {
+    display: inline-flex; justify-content: space-around;
+    align-items: center; width: 4rem; height: 4rem;
+    background-color: transparent; color: white;
+    border: 0.2rem solid white; font-size: 2rem;
+    border-radius: 50%; margin: 10px; transition: 0.3s ease;
+    margin-bottom: 5%;
+}
+
+.social-icons a:hover {
+    transform: scale(1.3) translateY(-5px); color: black;
+    background-color: white; box-shadow: 0  0 25px white;
+}
+
+.motto {
+    display: inline-block; 
+}
+
+.motto p {
+    color: white; font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 0; border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* Tentang Kami */
+.tentang-kami {
+    margin: auto; padding: 5%; text-align: center;
+    width: 90%; 
+}
+
+.judultentang {
+    display: flex; gap: 1rem;
+}
+
+.tentang-kami .judultentang h1 {
+    font-size: 4rem;
+}
+
+.tentang-kami p {
+    font-size: 1.6rem; text-align: justify; font-weight: 300;
+    line-height: 4rem;
+}
+
+/* Visi & Misi */
+.visiMisi {
+    text-align: center; padding: 5%;
+}
+
+.judulvisimisi {
+    display: flex; gap: 1rem; width: 80%; margin: auto;
+    justify-content: center;
+}
+
+.visiMisi h1 {
+    font-size: 4rem; color: black; margin-bottom: -15px;
+}
+
+.visiMisi h2 {
+    font-size: 2.5rem; margin-bottom: 10px;
+    text-align: left; color: black;
+}
+
+.visiMisi h3 {
+    text-align: center; width: 80%; margin: auto;
+    font-size: 2rem; margin-bottom: 20px;
+    color: black; margin-top: 10px; font-weight: 300;
+}
+
+.visiMisi p {
+    font-size: 1.5rem; text-align: justify;
+    line-height: 3rem; color: black;
+}
+
+.cardVisimisi {
+    display: flex; justify-content: center; gap: 6rem;
+    width: 95%; margin: auto;
+}
+
+.boxVisimisi {
+    border: 2px solid black; width: 40%;
+    border-radius: 10px; padding: 20px;
+}
+
+.boxVisimisi .garis {
+    border: 1px solid black;
+}
+
+/* Program Kerja */
+.proker {
+    background-color: white; padding: 5%;
+    margin-bottom: 1%;
+}
+
+.judulproker {
+    display: flex; gap: 1rem; width: 99%; margin: auto;
+}
+
+.proker i {
+    font-size: 5rem; margin-bottom: 10px; margin-top: 6px;
+}
+
+.proker h1 {
+    text-align: center; font-size: 4rem;
+}
+
+.boxproker {
+    display: flex; justify-content: space-around;
+}
+
+.cardproker {
+    width: 30%; padding: 20px; border-radius: 10px;
+    background-color: white; border: 2px solid black;
+}   
+
+.garis {
+    border: 1px solid black; margin-bottom: 20px;
+}
+
+.proker h2 {
+    font-size: 2.5rem; text-align: center;
+    margin-bottom: 20px; color: black;
+}
+
+.proker h3 {
+    text-align: justify; width: 98%; margin: auto;
+    font-size: 2rem; margin-bottom: 20px; font-weight: 300;
+}
+
+.cardproker p {
+    font-size: 1.5rem; color: black; text-align: justify;
+    line-height: 3rem;  
+}
+
+/* Dokumentasi */
+.portfolio {
+    min-height: auto; padding-bottom: 5%;
+}
+
+.portfolio h2 {
+    margin-bottom: 1rem; font-size: 4rem; text-align: center;
+}
+
+.portfolio .portfolio-container {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    align-items: center; gap: 2.5rem;
+}
+
+.portfolio-container .portfolio-box {
+    position: relative; display: flex; border-radius: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1); overflow: hidden;
+}
+
+.portfolio-box img {
+    width: 100%; transition: .5s ease;
+}
+
+.portfolio-box:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-box .portfolio-layer {
+    position: absolute; bottom: 0; left: 0; width: 100%;
+    height: 100%; display: flex; color: var(--white-color);
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    justify-content: center; align-items: center;
+    flex-direction: column; text-align: center;
+    padding: 0 4rem; opacity: 0; transition: .5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+    opacity: 1;
+}
+
+.portfolio-layer h4 {
+    font-size: 3rem;
+}
+
+/* Struktur */
+.struktur {
+    text-align: center; background-color: white;
+    padding: 5%;
+}
+
+.struktur h1 {
+    font-size: 4rem;
+}
+
+.struktur h2 {
+    font-size: 2rem;
+}
+
+.struktur h3 {
+    font-weight: 300; font-size: 1.8rem; margin-bottom: 3%;
+}
+
+.struktur p {
+    font-size: 2rem; font-weight: bold; margin-top: 2%;
+    margin-bottom: 1rem;
+}
+
+.struktur .sekre, .wakil, .bendahara,
+.or, .agama, .humas, .kor1, .kor2,
+.kor3, .kor4h, .kor4g, .kor5, .kor6, .kor7 {
+    width: 15%;
+}
+
+.kor1, .kor2, .kor3, .kor4h, .kor4g, .kor5, .kor6, .kor7 {
+    margin-bottom: 3%;
+}
+
+/* Kontak */
+.kontak {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.65),
+     rgb(0, 0, 0, 0.65)), url(background.png);
+    margin-bottom: 5%; background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.judulkontak {
+    width: 95%; margin: auto;
+    color: white;
+}
+
+.kontak h1 {
+    font-size: 4rem; color: white;
+}
+
+.jeniskontak {
+    display: flex; justify-content: space-between;
+    width: 95%; margin: auto; color: white;
+    margin-top: 40px; flex-wrap: wrap;
+}
+
+.jeniskontak h2 {
+    font-size: 2rem; margin-bottom: 10px;
+}
+
+.jeniskontak p {
+    font-size: 1.3rem;
+}
+
+/* G-Maps */
+.maps {
+    width: 80%; margin: auto;
+    margin-bottom: 10%;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center; font-size: 1.5rem;
+    color: black;
+    padding: 40px;
+}
+
+footer .sosmed a {
+    color: black; border: 1px solid black;
+}
+
+.sosmed h1 {
+    font-size: 3rem; color: black;
+}
+
+/* Sosmed */
+.sosmed .social-icons a {
+    display: inline-flex; justify-content: space-around;
+    align-items: center; width: 4rem; height: 4rem;
+    background-color: transparent; color: black;
+    border: 0.1rem solid black; font-size: 2rem;
+    border-radius: 50%; margin: 10px; transition: 0.3s ease;
+    margin-bottom: 3%;
+}
+
+.sosmed .social-icons a:hover {
+    transform: scale(1.3) translateY(-5px); color: white;
+    background-color: black; box-shadow: 0  0 25px black;
+}

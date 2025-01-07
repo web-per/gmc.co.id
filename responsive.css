@@ -1,0 +1,372 @@
+/* 1024px */
+@media(max-width: 1024px) {
+    /* Home */
+    .home {
+        flex-direction: column;  text-align: center;
+        height: auto; gap: 1rem;
+    }
+
+    .home-img img {
+        width: 20vw; margin-top: 4rem;
+    }
+
+    .home .home-content {
+        width: 100%;
+    }
+
+    .home .home-content h1 {
+        font-size: 4rem; text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .social-icons {
+        text-align: center;
+    }
+
+    /* Tentang Kami */
+    .tentang-kami .judultentang h1 {
+        font-size: 3rem;
+    }
+
+    .tentang-kami p {
+        font-size: 1.5rem; line-height: 3rem;
+    }
+
+    /* Visi & Misi */
+    .judulvisimisi {
+        width: 80%;
+    }
+
+    .visiMisi h1 {
+        font-size: 4rem;
+    }
+
+    .visiMisi h3 {
+        font-size: 1.5rem; font-weight: 300; width: 80%;
+    }
+
+    .cardVisimisi {
+        display: block; width: 80%; margin: auto;
+    }
+
+    .boxVisimisi {
+        width: 100%; margin-bottom: 5%;
+    }
+
+    .boxVisimisi h2 {
+        font-size: 2rem;
+    }
+
+    .boxVisimisi p {
+        font-size: 1.5rem; font-weight: 300;
+    }
+
+    /* Program */
+    .judulproker {
+        width: 80%; margin: auto;
+    }
+
+    .judulproker i {
+        font-size: 4rem;
+    }
+
+    .judulproker h1 {
+        font-size: 3rem; margin-top: 4px;
+    }
+
+    .proker h3 {
+        font-size: 1.5rem; font-weight: 300 ; width: 80%; margin: auto;
+        margin-bottom: 2%;
+    }
+
+    .boxproker {
+        display: block;
+    }
+
+    .cardproker {
+        width: 80%; margin: auto; margin-bottom: 3%;
+    }
+
+    .cardproker h2 {
+        font-size: 2rem; text-align: left;
+    }
+
+    .cardproker p {
+        font-size: 1.3rem;
+    }
+
+    /* Dokumentasi */
+    .portfolio h2 {
+        font-size: 3rem;
+    }
+
+    /* Stuktur */
+    .struktur h1 {
+        font-size: 3rem;
+    }
+
+    .struktur h2 {
+        font-size: 1.5rem;
+    }
+
+    .struktur h3 {
+        font-size: 1.5rem;
+    }
+
+    .struktur p {
+        font-size: 1.5rem;
+    }
+
+    .struktur .sekre, .wakil, .bendahara,
+    .or, .agama, .humas, .kor1, .kor2,
+    .kor3, .kor4h, .kor4g, .kor5, .kor6, .kor7 {
+        width: 25%;
+    }
+
+    /* Kontak */
+    .judulkontak i {
+        font-size: 4rem;
+    }
+
+    .judulkontak h1 {
+        font-size: 4rem;
+    }
+    
+    .tlp {
+        margin-bottom: 5%;
+    }
+
+    .email {
+        margin-bottom: 5%;
+    }
+
+    /* Footer */
+    footer .social-icons h1 {
+        font-size: 4rem;
+    }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+    /* Home */
+    .home .home-content h1 {
+        font-size: 2rem; margin-bottom: 5%;
+    }
+
+    .home .home-content p {
+        margin-bottom: 5%; font-size: 1.3rem;
+    }
+
+    .typing-text span::after {
+        margin-top: 8px;
+    }
+
+    .home .motto p {
+        font-size: 1rem;
+    }
+
+    /* Tentang Kami */
+    .judultentang {
+        margin-bottom: 2%;
+    }
+
+    .tentang-kami .judultentang h1 {
+        font-size: 2rem; margin-top: 6px;
+    }
+
+    .tentang-kami p {
+        font-size: 1.3rem;
+    }
+
+    /* Visi & Misi */
+    .judulvisimisi h1 {
+        font-size: 3rem;
+    }
+
+    .boxVisimisi p {
+        font-size: 1.3rem;
+    }
+
+    .visiMisi .cardVisimisi {
+        width: 100%; margin-top: -20px;
+    }
+
+    .visiMisi .boxVisimisi {
+        border: none;
+    }
+
+    /* Program */
+    .proker h3 {
+        line-height: 25px;
+    }
+
+    .proker .judulproker i {
+        font-size: 3rem;
+    }
+
+    .proker .judulproker h1 {
+        font-size: 2rem; margin-top: 6px;
+    }
+
+    /* Dokumentasi */
+    .portfolio h2 {
+        font-size: 4rem;
+    }
+
+    .portfolio .portfolio-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .portfolio-box img {
+        border-radius: 20px;
+    }
+
+    .portfolio-layer h4 {
+        font-size: 1.7rem;
+    }
+
+    /* Struktur */
+    .struktur .sekre, .wakil, .bendahara,
+    .or, .agama, .humas, .kor1, .kor2,
+    .kor3, .kor4h, .kor4g, .kor5, .kor6, .kor7 {
+        width: 35%;
+    }
+
+    /* Kontak */
+    .kontak {
+        text-align: center;
+    }
+
+    .kontak .judulkontak {
+        gap: 1rem;
+    }
+
+    .kontak .judulkontak i {
+        font-size: 3rem;
+    }
+
+    .kontak .judulkontak h1 {
+        font-size: 3rem;
+    }
+
+    .kontak .jeniskontak{
+        display: block;
+    }
+
+    .kontak .jeniskontak h2 {
+        font-size: 1.7rem;
+    }
+
+    /* Maps */
+    .maps {
+        width: 100%; margin-top: -5%;
+    }
+
+    iframe {
+        height: 200px; border-radius: 0px
+    }
+
+    .sosmed .social-icons h1 {
+        font-size: 3rem;
+    }
+
+    .sosmed .social-icons a {
+        font-size: 2rem; width: 4rem; height: 4rem;
+    }
+}
+
+/* 425px */
+@media (max-width: 425px) {
+    /* Home */
+    .home-img img {
+        width: 35vw;
+    }
+
+    .home .home-content h1 {
+        font-size: 2rem; margin-bottom: 5%;
+    }
+
+    .home .home-content p {
+        line-height: 2.5rem; margin-bottom: 5%;
+    }
+
+    .home .social-icons {
+        margin-bottom: 5%;
+    }
+
+    .social-icons a {
+        width: 3.5rem; height: 3.5rem; font-size: 1.5rem;
+    }
+
+    /* Visi & Misi */
+    .judulvisimisi {
+        margin-bottom: 20px; width: 90%;
+    }
+
+    .visiMisi .judulvisimisi h1 {
+        font-size: 2rem;
+    }
+
+    .visiMisi h3 {
+        font-size: 1.3rem; line-height: 23px;
+        width: 90%;
+    }
+
+    /* Program */
+    .proker .judulproker {
+        gap: 1rem; width: 90%;
+    }
+
+    .proker .judulproker i {
+        font-size: 3rem;
+    }
+
+    .proker .judulproker h1 {
+        font-size: 2rem;
+    }
+
+    .proker h3 {
+        width: 90%;
+    }
+
+    .proker .cardproker {
+        border: none; width: 100%;
+    }
+
+    /* Dokumentasi */
+    .portfolio h2 {
+        font-size: 2rem;
+    }
+
+    /* Struktur */
+    .struktur h1 {
+        font-size: 2rem;
+    }
+
+    /* Kontak */
+    .kontak .judulkontak h1 {
+        font-size: 2rem;
+    }
+
+    .jeniskontak {
+        margin-top: 20px;
+    }
+
+    .kontak p {
+        font-size: 1rem;
+    }
+
+    /* Sosmed */
+    .sosmed .social-icons h1 {
+        font-size: 2rem;
+    }
+
+    .sosmed .social-icons a {
+        width: 3.5rem; height: 3.5rem; font-size: 1.5rem;
+    }
+
+    /* Footer */
+    footer small {
+        font-size: 1rem;
+    }
+}
